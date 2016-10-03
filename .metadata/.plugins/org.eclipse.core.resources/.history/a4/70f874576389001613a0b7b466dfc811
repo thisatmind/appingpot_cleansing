@@ -1,0 +1,50 @@
+package appingpot.FourtyTwoMatterResultfulService;
+
+import java.util.List;
+
+public class Results {
+	private List<String> i18n_lang;
+	private double rating;
+	private String downloads_min;
+	private String description;
+	
+	private String title;
+	private List<String> screenshots;//List<Screenshots>
+	private List<String> cat_keys;
+	
+	private String downloads;
+	private String price;
+	private String cat_int;
+	private String content_rating;
+	private boolean iap;
+	private String lang;
+	private String what_is_new;
+	private double iap_min;
+	private int price_numeric;
+	private String website;
+	private String created;
+	private long downloads_max;
+	private String cat_key;
+	private List<String> interactive_elements;
+	private String version;
+	private List<String> badges;
+	private List<String> price_i18n_countries;
+	private int size;
+	private double iap_max;
+	private int cat_type;
+	private String market_update;
+	private String package_name;
+	private List<String> from_developer;
+	private String short_desc;
+	private String category;
+	private String developer;
+	private int number_ratings;
+	private String icon;
+	private String icon_72;
+	private String promo_video;
+	private String market_url;
+	private String deep_link;
+	public Results() {
+		// TODO Auto-generated constructor stub
+	}
+	

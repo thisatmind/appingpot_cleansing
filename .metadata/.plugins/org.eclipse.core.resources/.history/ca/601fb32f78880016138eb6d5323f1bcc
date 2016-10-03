@@ -1,0 +1,29 @@
+package appingpot.dataCleansing;
+
+public class PostResultVO {
+	List<Results> results;	
+
+	public PostResultVO() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public PostResultVO(Results results) {
+		super();
+		this.results = results;
+	}
+
+	public Results getResults() {
+		return results;
+	}
+
+	public void setResults(Results results) {
+		this.results = results;
+	}
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,26 @@
+package appingpot.dataCleansing;
+
+public class Results {
+
+	
+	double rating;
+	String title;
+	List<String> screenshots;//List<Screenshots>
+	List<String> cat_keys;
+	String content_rating;
+	String developer;
+	String downloads;
+	String price;
+	String version;
+	String packageName;
+	String short_desc;
+	String category;
+	String icon;
+	String icon_72;
+	String promo_video;
+	String market_url;
+	
+	
+	
+
+}

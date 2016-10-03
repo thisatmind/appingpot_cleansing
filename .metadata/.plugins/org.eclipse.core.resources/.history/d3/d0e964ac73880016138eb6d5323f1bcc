@@ -1,0 +1,12 @@
+package VO;
+/*"query":{
+	"query_params": {
+		"package_name":"com.nianticlabs.pokemongo"
+	}
+},*/
+public class Query {
+	QueryParams query_params;
+	
+	
+
+}

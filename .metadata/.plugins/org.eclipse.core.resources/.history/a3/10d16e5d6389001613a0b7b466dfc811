@@ -1,0 +1,101 @@
+package appingpot.FourtyTwoMatterResultfulService;
+
+import java.util.List;
+
+public class Results {
+	private List<String> i18n_lang;
+	private double rating;
+	private String downloads_min;
+	private String description;
+	
+	private String title;
+	private List<String> screenshots;//List<Screenshots>
+	private List<String> cat_keys;
+	
+	private String downloads;
+	private String price;
+	private String cat_int;
+	private String content_rating;
+	private boolean iap;
+	private String lang;
+	private String what_is_new;
+	private double iap_min;
+	private int price_numeric;
+	private String website;
+	private String created;
+	private long downloads_max;
+	private String cat_key;
+	private List<String> interactive_elements;
+	private String version;
+	private List<String> badges;
+	private List<String> price_i18n_countries;
+	private int size;
+	private double iap_max;
+	private int cat_type;
+	private String market_update;
+	private String package_name;
+	private List<String> from_developer;
+	private String short_desc;
+	private String category;
+	private String developer;
+	private int number_ratings;
+	private String icon;
+	private String icon_72;
+	private String promo_video;
+	private String market_url;
+	private String deep_link;
+	public Results() {
+		// TODO Auto-generated constructor stub
+	}
+	public Results(List<String> i18n_lang, double rating, String downloads_min, String description, String title,
+			List<String> screenshots, List<String> cat_keys, String downloads, String price, String cat_int,
+			String content_rating, boolean iap, String lang, String what_is_new, double iap_min, int price_numeric,
+			String website, String created, long downloads_max, String cat_key, List<String> interactive_elements,
+			String version, List<String> badges, List<String> price_i18n_countries, int size, double iap_max,
+			int cat_type, String market_update, String package_name, List<String> from_developer, String short_desc,
+			String category, String developer, int number_ratings, String icon, String icon_72, String promo_video,
+			String market_url, String deep_link) {
+		super();
+		this.i18n_lang = i18n_lang;
+		this.rating = rating;
+		this.downloads_min = downloads_min;
+		this.description = description;
+		this.title = title;
+		this.screenshots = screenshots;
+		this.cat_keys = cat_keys;
+		this.downloads = downloads;
+		this.price = price;
+		this.cat_int = cat_int;
+		this.content_rating = content_rating;
+		this.iap = iap;
+		this.lang = lang;
+		this.what_is_new = what_is_new;
+		this.iap_min = iap_min;
+		this.price_numeric = price_numeric;
+		this.website = website;
+		this.created = created;
+		this.downloads_max = downloads_max;
+		this.cat_key = cat_key;
+		this.interactive_elements = interactive_elements;
+		this.version = version;
+		this.badges = badges;
+		this.price_i18n_countries = price_i18n_countries;
+		this.size = size;
+		this.iap_max = iap_max;
+		this.cat_type = cat_type;
+		this.market_update = market_update;
+		this.package_name = package_name;
+		this.from_developer = from_developer;
+		this.short_desc = short_desc;
+		this.category = category;
+		this.developer = developer;
+		this.number_ratings = number_ratings;
+		this.icon = icon;
+		this.icon_72 = icon_72;
+		this.promo_video = promo_video;
+		this.market_url = market_url;
+		this.deep_link = deep_link;
+	}
+	
+}
+	

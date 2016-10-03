@@ -1,0 +1,178 @@
+package appingpot.dataCleansing;
+
+import java.util.List;
+
+public class Results {
+	List<String> i18n_lang;
+	double rating;
+	String downloads_min;
+	String description;
+	
+	String title;
+	List<String> screenshots;//List<Screenshots>
+	List<String> cat_keys;
+	
+	String downloads;
+	String price;
+	String cat_int;
+	String content_rating;
+	boolean iap;
+	String lang;
+	String what_is_new;
+	double iap_min;
+	int price_numeric;
+	String website;
+	String created;
+	int downloads_max;
+	String cat_key;
+	List<String> interactive_elements;
+	String version;
+	List<String> badges;
+	List<String> price_i18n_countries;
+	int size;
+	double iap_max;
+	int cat_type;
+	String market_update;
+	String package_name;
+	List<String> from_developer;
+	String short_desc;
+	String category;
+	String developer;
+	int number_ratings;
+	String icon;
+	String icon_72;
+	String promo_video;
+	
+	String version;
+	String packageName;
+	
+	
+	
+	
+	String market_url;
+	public Results() {
+		// TODO Auto-generated constructor stub
+	}
+	public Results(double rating, String title, List<String> screenshots, List<String> cat_keys, String content_rating,
+			String developer, String downloads, String price, String version, String packageName, String short_desc,
+			String category, String icon, String icon_72, String promo_video, String market_url) {
+		this.rating = rating;
+		this.title = title;
+		this.screenshots = screenshots;
+		this.cat_keys = cat_keys;
+		this.content_rating = content_rating;
+		this.developer = developer;
+		this.downloads = downloads;
+		this.price = price;
+		this.version = version;
+		this.packageName = packageName;
+		this.short_desc = short_desc;
+		this.category = category;
+		this.icon = icon;
+		this.icon_72 = icon_72;
+		this.promo_video = promo_video;
+		this.market_url = market_url;
+	}
+	public double getRating() {
+		return rating;
+	}
+	public void setRating(double rating) {
+		this.rating = rating;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public List<String> getScreenshots() {
+		return screenshots;
+	}
+	public void setScreenshots(List<String> screenshots) {
+		this.screenshots = screenshots;
+	}
+	public List<String> getCat_keys() {
+		return cat_keys;
+	}
+	public void setCat_keys(List<String> cat_keys) {
+		this.cat_keys = cat_keys;
+	}
+	public String getContent_rating() {
+		return content_rating;
+	}
+	public void setContent_rating(String content_rating) {
+		this.content_rating = content_rating;
+	}
+	public String getDeveloper() {
+		return developer;
+	}
+	public void setDeveloper(String developer) {
+		this.developer = developer;
+	}
+	public String getDownloads() {
+		return downloads;
+	}
+	public void setDownloads(String downloads) {
+		this.downloads = downloads;
+	}
+	public String getPrice() {
+		return price;
+	}
+	public void setPrice(String price) {
+		this.price = price;
+	}
+	public String getVersion() {
+		return version;
+	}
+	public void setVersion(String version) {
+		this.version = version;
+	}
+	public String getPackageName() {
+		return packageName;
+	}
+	public void setPackageName(String packageName) {
+		this.packageName = packageName;
+	}
+	public String getShort_desc() {
+		return short_desc;
+	}
+	public void setShort_desc(String short_desc) {
+		this.short_desc = short_desc;
+	}
+	public String getCategory() {
+		return category;
+	}
+	public void setCategory(String category) {
+		this.category = category;
+	}
+	public String getIcon() {
+		return icon;
+	}
+	public void setIcon(String icon) {
+		this.icon = icon;
+	}
+	public String getIcon_72() {
+		return icon_72;
+	}
+	public void setIcon_72(String icon_72) {
+		this.icon_72 = icon_72;
+	}
+	public String getPromo_video() {
+		return promo_video;
+	}
+	public void setPromo_video(String promo_video) {
+		this.promo_video = promo_video;
+	}
+	public String getMarket_url() {
+		return market_url;
+	}
+	public void setMarket_url(String market_url) {
+		this.market_url = market_url;
+	}
+	
+	
+	
+	
+	
+
+}

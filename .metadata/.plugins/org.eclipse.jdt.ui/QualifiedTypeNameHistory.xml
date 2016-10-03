@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="VO.RecommendData"/>
+<fullyQualifiedTypeName name="Test.Caculator"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
+<fullyQualifiedTypeName name="appingpot_cleansing.DBConnector"/>
+<fullyQualifiedTypeName name="appingpot_cleansing.AppingpotCleansing"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="VO.Content"/>
+<fullyQualifiedTypeName name="VO.Query"/>
+<fullyQualifiedTypeName name="VO.QueryParams"/>
+<fullyQualifiedTypeName name="appingpot.dataCleansing.PostResultVO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="appingpot.FourtyTwoMatterResultfulService.FourtyTwoMattersParser"/>
+<fullyQualifiedTypeName name="VO.PostContent"/>
+<fullyQualifiedTypeName name="appingpot.FourtyTwoMatterResultfulService.PostResultVO"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,61 @@
+package JsonHomework.JsonHomework;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Map;
+
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+/**
+ * Jackson Parser!
+ *
+ */
+public class JacksonParser
+{
+    public static void main( String[] args ) throws JsonParseException, JsonMappingException, IOException
+    {
+    	
+        ObjectMapper mapper = new ObjectMapper();
+        //json이 있는 파일의 경로 지정.
+        String fileLoc = "C:/dev/konkuk_2016_2_webservice/JsonHomework/src/main/java/JsonHomework/JsonHomework/";
+        
+    // Full Data Binding with User-defined Class Email
+        
+        // daum-shooping-pretty.json을 사용자 정의 클래스인 Shopping 클래스에 인스턴스화를 시킴.
+        Shopping shopping = mapper.readValue(new File(fileLoc+"daum-shopping-pretty2.json"), Shopping.class);
+
+    	System.out.println(shopping);
+    	
+    	// json파일로서 write함.
+    	mapper.writeValue(new File(fileLoc + "myShopping.json"), shopping);
+    	
+    	
+    	// String 형태로서  write하여 shoppingStr 객체에 생성
+    	String shoppingStr = mapper.writeValueAsString(shopping);
+    	//제대로 생성되었음을 확인하기 위해 shoppingStr 객체 호출
+    	System.out.println("String 형태로 : " + shoppingStr);
+    	
+    	// Read from string
+    	Shopping shopping2 = mapper.readValue(shoppingStr, Shopping.class);
+    	System.out.println("ShoppingFromString=" + shopping2);    	
+
+    // Simple (Untyped) Data Binding with Java Maps
+    	//Read XML Documents into Map objects
+    	Map<String, Object> shoppingMap = mapper.readValue(new File(fileLoc+"daum-shopping-pretty.json"), Map.class);
+    	
+    	// Write to a file
+    	mapper.writeValue(new File(fileLoc + "daum-shopping-pretty3.json"), shoppingMap);
+    	// Write to a string
+    	String strShoopingJSON2 = mapper.writeValueAsString(shoppingMap);
+    	System.out.println(strShoopingJSON2);
+		// Read from a string
+    	Map<String, Object> channelMap2 = mapper.readValue(strShoopingJSON2, Map.class);  
+
+		// Access Java Maps
+//    	Map<String, Object> headMap = (Map<String,Object>) channelMap.get("head");
+//    	Map<String, Object> fromMap = (Map<String,Object>) headMap.get("from");
+//    	String body = (String) channelMap.get("body");
+    }
+}

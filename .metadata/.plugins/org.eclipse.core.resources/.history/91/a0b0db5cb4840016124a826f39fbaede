@@ -1,0 +1,80 @@
+package VO;
+
+import java.sql.Timestamp;
+
+public class RecommendData {
+	private String id;
+	priavte String userId;
+	private String packageId;
+	private double tempRating;
+	private String time;
+	private double normalization1;
+	private double normalizatedRatings;
+	public RecommendData() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public RecommendData(String id, String packageId, double tempRating, String time) {
+		this.id = id;
+		this.packageId = packageId;
+		this.tempRating = tempRating;
+		this.time = time;
+	}
+
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getPackageId() {
+		return packageId;
+	}
+	public void setPackageId(String packageId) {
+		this.packageId = packageId;
+	}
+	
+	public double getTempRating() {
+		return tempRating;
+	}
+
+	public void setTempRating(double tempRating) {
+		this.tempRating = tempRating;
+	}
+
+	public double getNormalizatedRatings() {
+		return normalizatedRatings;
+	}
+
+	public void setNormalizatedRatings(double normalizatedRatings) {
+		this.normalizatedRatings = normalizatedRatings;
+	}
+
+	public String getTime() {
+		return time;
+	}
+	public void setTime(String time) {
+		this.time = time;
+	}
+	
+
+	public double getNormalization1() {
+		return normalization1;
+	}
+
+	public void setNormalization1(double normalization1) {
+		this.normalization1 = normalization1;
+	}
+
+	
+
+	
+	
+
+	
+	
+	
+	
+	
+
+}

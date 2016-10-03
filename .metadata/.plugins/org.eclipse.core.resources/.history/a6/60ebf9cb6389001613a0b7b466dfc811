@@ -1,0 +1,368 @@
+package appingpot.FourtyTwoMatterResultfulService;
+
+import java.util.List;
+
+public class Results {
+	private List<String> i18n_lang;
+	private double rating;
+	private String downloads_min;
+	private String description;
+	
+	private String title;
+	private List<String> screenshots;//List<Screenshots>
+	private List<String> cat_keys;
+	
+	private String downloads;
+	private String price;
+	private String cat_int;
+	private String content_rating;
+	private boolean iap;
+	private String lang;
+	private String what_is_new;
+	private double iap_min;
+	private int price_numeric;
+	private String website;
+	private String created;
+	private long downloads_max;
+	private String cat_key;
+	private List<String> interactive_elements;
+	private String version;
+	private List<String> badges;
+	private List<String> price_i18n_countries;
+	private int size;
+	private double iap_max;
+	private int cat_type;
+	private String market_update;
+	private String package_name;
+	private List<String> from_developer;
+	private String short_desc;
+	private String category;
+	private String developer;
+	private int number_ratings;
+	private String icon;
+	private String icon_72;
+	private String promo_video;
+	private String market_url;
+	private String deep_link;
+	public Results() {
+		// TODO Auto-generated constructor stub
+	}
+	public Results(List<String> i18n_lang, double rating, String downloads_min, String description, String title,
+			List<String> screenshots, List<String> cat_keys, String downloads, String price, String cat_int,
+			String content_rating, boolean iap, String lang, String what_is_new, double iap_min, int price_numeric,
+			String website, String created, long downloads_max, String cat_key, List<String> interactive_elements,
+			String version, List<String> badges, List<String> price_i18n_countries, int size, double iap_max,
+			int cat_type, String market_update, String package_name, List<String> from_developer, String short_desc,
+			String category, String developer, int number_ratings, String icon, String icon_72, String promo_video,
+			String market_url, String deep_link) {
+		super();
+		this.i18n_lang = i18n_lang;
+		this.rating = rating;
+		this.downloads_min = downloads_min;
+		this.description = description;
+		this.title = title;
+		this.screenshots = screenshots;
+		this.cat_keys = cat_keys;
+		this.downloads = downloads;
+		this.price = price;
+		this.cat_int = cat_int;
+		this.content_rating = content_rating;
+		this.iap = iap;
+		this.lang = lang;
+		this.what_is_new = what_is_new;
+		this.iap_min = iap_min;
+		this.price_numeric = price_numeric;
+		this.website = website;
+		this.created = created;
+		this.downloads_max = downloads_max;
+		this.cat_key = cat_key;
+		this.interactive_elements = interactive_elements;
+		this.version = version;
+		this.badges = badges;
+		this.price_i18n_countries = price_i18n_countries;
+		this.size = size;
+		this.iap_max = iap_max;
+		this.cat_type = cat_type;
+		this.market_update = market_update;
+		this.package_name = package_name;
+		this.from_developer = from_developer;
+		this.short_desc = short_desc;
+		this.category = category;
+		this.developer = developer;
+		this.number_ratings = number_ratings;
+		this.icon = icon;
+		this.icon_72 = icon_72;
+		this.promo_video = promo_video;
+		this.market_url = market_url;
+		this.deep_link = deep_link;
+	}
+	public List<String> getI18n_lang() {
+		return i18n_lang;
+	}
+	public void setI18n_lang(List<String> i18n_lang) {
+		this.i18n_lang = i18n_lang;
+	}
+	public double getRating() {
+		return rating;
+	}
+	public void setRating(double rating) {
+		this.rating = rating;
+	}
+	public String getDownloads_min() {
+		return downloads_min;
+	}
+	public void setDownloads_min(String downloads_min) {
+		this.downloads_min = downloads_min;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public List<String> getScreenshots() {
+		return screenshots;
+	}
+	public void setScreenshots(List<String> screenshots) {
+		this.screenshots = screenshots;
+	}
+	public List<String> getCat_keys() {
+		return cat_keys;
+	}
+	public void setCat_keys(List<String> cat_keys) {
+		this.cat_keys = cat_keys;
+	}
+	public String getDownloads() {
+		return downloads;
+	}
+	public void setDownloads(String downloads) {
+		this.downloads = downloads;
+	}
+	public String getPrice() {
+		return price;
+	}
+	public void setPrice(String price) {
+		this.price = price;
+	}
+	public String getCat_int() {
+		return cat_int;
+	}
+	public void setCat_int(String cat_int) {
+		this.cat_int = cat_int;
+	}
+	public String getContent_rating() {
+		return content_rating;
+	}
+	public void setContent_rating(String content_rating) {
+		this.content_rating = content_rating;
+	}
+	public boolean isIap() {
+		return iap;
+	}
+	public void setIap(boolean iap) {
+		this.iap = iap;
+	}
+	public String getLang() {
+		return lang;
+	}
+	public void setLang(String lang) {
+		this.lang = lang;
+	}
+	public String getWhat_is_new() {
+		return what_is_new;
+	}
+	public void setWhat_is_new(String what_is_new) {
+		this.what_is_new = what_is_new;
+	}
+	public double getIap_min() {
+		return iap_min;
+	}
+	public void setIap_min(double iap_min) {
+		this.iap_min = iap_min;
+	}
+	public int getPrice_numeric() {
+		return price_numeric;
+	}
+	public void setPrice_numeric(int price_numeric) {
+		this.price_numeric = price_numeric;
+	}
+	public String getWebsite() {
+		return website;
+	}
+	public void setWebsite(String website) {
+		this.website = website;
+	}
+	public String getCreated() {
+		return created;
+	}
+	public void setCreated(String created) {
+		this.created = created;
+	}
+	public long getDownloads_max() {
+		return downloads_max;
+	}
+	public void setDownloads_max(long downloads_max) {
+		this.downloads_max = downloads_max;
+	}
+	public String getCat_key() {
+		return cat_key;
+	}
+	public void setCat_key(String cat_key) {
+		this.cat_key = cat_key;
+	}
+	public List<String> getInteractive_elements() {
+		return interactive_elements;
+	}
+	public void setInteractive_elements(List<String> interactive_elements) {
+		this.interactive_elements = interactive_elements;
+	}
+	public String getVersion() {
+		return version;
+	}
+	public void setVersion(String version) {
+		this.version = version;
+	}
+	public List<String> getBadges() {
+		return badges;
+	}
+	public void setBadges(List<String> badges) {
+		this.badges = badges;
+	}
+	public List<String> getPrice_i18n_countries() {
+		return price_i18n_countries;
+	}
+	public void setPrice_i18n_countries(List<String> price_i18n_countries) {
+		this.price_i18n_countries = price_i18n_countries;
+	}
+	public int getSize() {
+		return size;
+	}
+	public void setSize(int size) {
+		this.size = size;
+	}
+	public double getIap_max() {
+		return iap_max;
+	}
+	public void setIap_max(double iap_max) {
+		this.iap_max = iap_max;
+	}
+	public int getCat_type() {
+		return cat_type;
+	}
+	public void setCat_type(int cat_type) {
+		this.cat_type = cat_type;
+	}
+	public String getMarket_update() {
+		return market_update;
+	}
+	public void setMarket_update(String market_update) {
+		this.market_update = market_update;
+	}
+	public String getPackage_name() {
+		return package_name;
+	}
+	public void setPackage_name(String package_name) {
+		this.package_name = package_name;
+	}
+	public List<String> getFrom_developer() {
+		return from_developer;
+	}
+	public void setFrom_developer(List<String> from_developer) {
+		this.from_developer = from_developer;
+	}
+	public String getShort_desc() {
+		return short_desc;
+	}
+	public void setShort_desc(String short_desc) {
+		this.short_desc = short_desc;
+	}
+	public String getCategory() {
+		return category;
+	}
+	public void setCategory(String category) {
+		this.category = category;
+	}
+	public String getDeveloper() {
+		return developer;
+	}
+	public void setDeveloper(String developer) {
+		this.developer = developer;
+	}
+	public int getNumber_ratings() {
+		return number_ratings;
+	}
+	public void setNumber_ratings(int number_ratings) {
+		this.number_ratings = number_ratings;
+	}
+	public String getIcon() {
+		return icon;
+	}
+	public void setIcon(String icon) {
+		this.icon = icon;
+	}
+	public String getIcon_72() {
+		return icon_72;
+	}
+	public void setIcon_72(String icon_72) {
+		this.icon_72 = icon_72;
+	}
+	public String getPromo_video() {
+		return promo_video;
+	}
+	public void setPromo_video(String promo_video) {
+		this.promo_video = promo_video;
+	}
+	public String getMarket_url() {
+		return market_url;
+	}
+	public void setMarket_url(String market_url) {
+		this.market_url = market_url;
+	}
+	public String getDeep_link() {
+		return deep_link;
+	}
+	public void setDeep_link(String deep_link) {
+		this.deep_link = deep_link;
+	}
+	@Override
+	public String toString() {
+		return "Results [i18n_lang=" + i18n_lang + ", rating=" + rating + ", downloads_min=" + downloads_min
+				+ ", description=" + description + ", title=" + title + ", screenshots=" + screenshots + ", cat_keys="
+				+ cat_keys + ", downloads=" + downloads + ", price=" + price + ", cat_int=" + cat_int
+				+ ", content_rating=" + content_rating + ", iap=" + iap + ", lang=" + lang + ", what_is_new="
+				+ what_is_new + ", iap_min=" + iap_min + ", price_numeric=" + price_numeric + ", website=" + website
+				+ ", created=" + created + ", downloads_max=" + downloads_max + ", cat_key=" + cat_key
+				+ ", interactive_elements=" + interactive_elements + ", version=" + version + ", badges=" + badges
+				+ ", price_i18n_countries=" + price_i18n_countries + ", size=" + size + ", iap_max=" + iap_max
+				+ ", cat_type=" + cat_type + ", market_update=" + market_update + ", package_name=" + package_name
+				+ ", from_developer=" + from_developer + ", short_desc=" + short_desc + ", category=" + category
+				+ ", developer=" + developer + ", number_ratings=" + number_ratings + ", icon=" + icon + ", icon_72="
+				+ icon_72 + ", promo_video=" + promo_video + ", market_url=" + market_url + ", deep_link=" + deep_link
+				+ ", getI18n_lang()=" + getI18n_lang() + ", getRating()=" + getRating() + ", getDownloads_min()="
+				+ getDownloads_min() + ", getDescription()=" + getDescription() + ", getTitle()=" + getTitle()
+				+ ", getScreenshots()=" + getScreenshots() + ", getCat_keys()=" + getCat_keys() + ", getDownloads()="
+				+ getDownloads() + ", getPrice()=" + getPrice() + ", getCat_int()=" + getCat_int()
+				+ ", getContent_rating()=" + getContent_rating() + ", isIap()=" + isIap() + ", getLang()=" + getLang()
+				+ ", getWhat_is_new()=" + getWhat_is_new() + ", getIap_min()=" + getIap_min() + ", getPrice_numeric()="
+				+ getPrice_numeric() + ", getWebsite()=" + getWebsite() + ", getCreated()=" + getCreated()
+				+ ", getDownloads_max()=" + getDownloads_max() + ", getCat_key()=" + getCat_key()
+				+ ", getInteractive_elements()=" + getInteractive_elements() + ", getVersion()=" + getVersion()
+				+ ", getBadges()=" + getBadges() + ", getPrice_i18n_countries()=" + getPrice_i18n_countries()
+				+ ", getSize()=" + getSize() + ", getIap_max()=" + getIap_max() + ", getCat_type()=" + getCat_type()
+				+ ", getMarket_update()=" + getMarket_update() + ", getPackage_name()=" + getPackage_name()
+				+ ", getFrom_developer()=" + getFrom_developer() + ", getShort_desc()=" + getShort_desc()
+				+ ", getCategory()=" + getCategory() + ", getDeveloper()=" + getDeveloper() + ", getNumber_ratings()="
+				+ getNumber_ratings() + ", getIcon()=" + getIcon() + ", getIcon_72()=" + getIcon_72()
+				+ ", getPromo_video()=" + getPromo_video() + ", getMarket_url()=" + getMarket_url()
+				+ ", getDeep_link()=" + getDeep_link() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ ", toString()=" + super.toString() + "]";
+	}
+	
+}
+	

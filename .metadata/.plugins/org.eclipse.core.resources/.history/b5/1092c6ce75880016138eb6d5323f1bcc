@@ -1,0 +1,8 @@
+package appingpot.dataCleansing;
+
+public class PostResultVO {
+	Results results;
+	
+	
+
+}

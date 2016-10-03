@@ -1,0 +1,6 @@
+package VO;
+
+public class QueryParams {
+	private String package_name;
+
+}

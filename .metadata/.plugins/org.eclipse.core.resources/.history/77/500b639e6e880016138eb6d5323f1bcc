@@ -1,0 +1,15 @@
+package appingpot.dataCleansing;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class FourtyTwoMattersParser {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ObjectMapper mapper = new ObjectMapper();
+		Shopping shopping2 = mapper.readValue(shoppingStr, Shopping.class);
+
+	}
+
+}

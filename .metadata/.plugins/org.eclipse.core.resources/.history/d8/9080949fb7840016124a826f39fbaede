@@ -1,0 +1,13 @@
+
+public class DBConnector {
+	 public static Connection getConnection() throws Exception {
+		    String driver = "oracle.jdbc.driver.OracleDriver";
+		    String url = "jdbc:oracle:thin:@localhost:1521:databaseName";
+		    String username = "name";
+		    String password = "password";
+		    Class.forName(driver);
+		    Connection conn = DriverManager.getConnection(url, username, password);
+		    return conn;
+		  }
+
+}
